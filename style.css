@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,input,select,button,textarea
+{
+    font-family: 'Poppins', sans-serif; 
+}
+
+html,body
+{   
+    width: 100vw;
+    height: 100vh;
+
+    overflow-x: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul,li
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.container
+{
+    width: 1440px;
+    height: 800px;
+
+    background-image: url(images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .container-text
+{
+    color: white;
+}   
+
+.container .container-text h2
+{
+    font-size: 50px;
+    font-weight: 700;
+
+    line-height: 60px;
+}
+
+.container .container-text p
+{   
+    margin-top: 20px;
+
+    font-size: 16px;
+}
+
+.container .form-container
+{
+    margin-top: -50px;
+    margin-left: 80px;
+}
+
+.container .form-container a
+{
+    padding: 15px 80px;
+
+    background:hsl(248, 32%, 49%);
+
+    font-size: 16px;
+    font-weight: 300;
+
+    color: white;
+
+    border: none;
+    border-radius: 8px;
+
+    text-align: center;
+
+    box-shadow: 0px 3px hsl(249, 35%, 30%);
+
+    transition: 0.3s;
+}
+
+.container .form-container a:hover
+{
+    opacity: 0.9;
+}
+
+.container .form-container form
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    margin-top: 40px;
+
+    background: white;
+
+    border: none;
+    border-radius: 8px;
+
+    text-align: center;
+}
+
+.container .form-container form input
+{
+    width: 400px;
+    height: 50px;
+
+    padding-left: 20px;
+
+    font-size: 16px;
+    font-weight: 700;
+
+    color: hsl(249, 10%, 26%);
+
+    border: 1px solid hsl(240, 17%, 91%);
+    border-radius: 8px;
+
+    outline: none;
+}
+
+.container .form-container form input:focus
+{
+    border: 1px solid hsl(248, 32%, 49%);
+}
+
+::-webkit-input-placeholder 
+{
+    font-weight: 700;
+}
+
+.container .form-container form button
+{
+    width: 400px;
+    height: 50px;
+
+    background: hsl(154, 59%, 51%);
+
+    font-size: 16px;
+
+    color: white;
+
+    border: none;
+    border-radius: 8px;
+
+    box-shadow: 0px 3px hsl(154, 59%, 31%);
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.container .form-container form button:hover
+{
+    opacity: 0.8;
+}
+
+.container .form-container form span
+{
+    color: hsl(246, 25%, 77%);
+
+    font-size: 11px;
+}
+
+.container .form-container form strong
+{
+    color: hsl(0, 100%, 74%);
+
+    cursor: pointer;
+}
