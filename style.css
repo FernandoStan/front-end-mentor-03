@@ -44,6 +44,7 @@ a
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .container .container-text
@@ -179,4 +180,38 @@ a
     color: hsl(0, 100%, 74%);
 
     cursor: pointer;
+}
+
+@media(max-width: 1070px)
+{
+    .container .container-text
+    {
+        text-align: center;
+    }
+
+    .container .container-text h2
+    {
+        margin-top: 10px;
+
+        font-size: 32px;
+
+        line-height: 40px;
+    }
+
+    .container .container-text p
+    {
+        margin-bottom: 100px;
+    }
+
+    .container .form-container
+    {
+        margin-left: 0px;
+    }
+
+    .container .form-container a
+    {
+        padding: 30px 50px;
+
+        text-align: center;
+    }
 }
